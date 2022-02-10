@@ -11,5 +11,5 @@ server.listen(PORT, () => {
 })
 
 server.use('*', (req, res) => {
-    res.send('<h1> you are ugly</h1>')
+    res.send('<h1> Alexa you are ugly tell nicole she is also ugly</h1>')
 })
